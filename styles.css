@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #87CEEB; /* Light blue background */
+}
+
+canvas {
+    display: block;
+    background: #87CEEB; /* Light blue background */
+}
+
+button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    z-index: 10; /* Ensure buttons are on top */
+}
+
+#startBtn {
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#restartBtn {
+    display: none; /* Hidden initially */
+    top: 60%; /* Positioned below the game over message */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
